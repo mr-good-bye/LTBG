@@ -29,7 +29,7 @@ class Renderer:
         self.scr.addstr(y, x, text, self.themes.get(theme, curses.color_pair(0)))
 
     def del_char(self, y_start: int, x_start: int, y_end: int = None, x_end: int = None):
-
+        pass
 
     def __del__(self):
         curses.echo()
